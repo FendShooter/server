@@ -14,8 +14,8 @@ app.use('/api/v1', require('./routers/routes'));
 const PORT = process.env.PORT || 5000;
 db.sequelize
   // .sync({ force: true })
-  .sync()
-  // .authenticate()
+  // .sync()
+  .authenticate()
   .then(() => {
     app.listen(PORT, () =>
       console.log(`Server running on http://localhost:${PORT}`)

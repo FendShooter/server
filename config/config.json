@@ -1,0 +1,35 @@
+{
+  "development": {
+    "username": "wasrjnvfbmpvyh",
+    "password": "4b2f8e647868ad78f2797ec84f882436c8e0579e66c60473d864ceddd587be19",
+    "database": "dce3q3fa33o8kn",
+    "host": "ec2-52-21-153-207.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "ssl": {
+      "protocol": "TLSv1.3",
+      "cipher": "TLS_AES_256_GCM_SHA384",
+      "bits": "256",
+      "compression": "on"
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "wasrjnvfbmpvyh",
+    "password": "4b2f8e647868ad78f2797ec84f882436c8e0579e66c60473d864ceddd587be19",
+    "database": "dce3q3fa33o8kn",
+    "host": "ec2-52-21-153-207.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "ssl": {
+      "protocol": "TLSv1.3",
+      "cipher": "TLS_AES_256_GCM_SHA384",
+      "bits": "256",
+      "compression": "off"
+    }
+  }
+}

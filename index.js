@@ -10,7 +10,7 @@ app.use(cors());
 app.use(morgan('dev'));
 // routers
 app.use('/api/v1', require('./routers/routes'));
-
+ 
 const PORT = process.env.PORT || 5000;
 db.sequelize
   // .sync({ force: true })

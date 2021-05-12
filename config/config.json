@@ -5,11 +5,11 @@
     "database": "dce3q3fa33o8kn",
     "host": "ec2-52-21-153-207.compute-1.amazonaws.com",
     "dialect": "postgres",
-    "ssl": {
-      "protocol": "TLSv1.3",
-      "cipher": "TLS_AES_256_GCM_SHA384",
-      "bits": "256",
-      "compression": "on"
+    "dialectOptions": {
+      "ssl": {
+        "require": true, 
+        "rejectUnauthorized": false 
+      }
     }
   },
   "test": {

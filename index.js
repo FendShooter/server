@@ -3,6 +3,7 @@ const morgan = require('morgan');
 const cors = require('cors');
 const db = require('./models');
 const app = express();
+require('dotenv').config({ path: './con/config.env' });
 // middlewares
 app.use(express.json());
 app.use(cors());
